@@ -1,0 +1,25 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-no-unused-expression-chai" // must be after
+    ],
+    "rules": {
+        "curly": [true, "ignore-same-line"],
+        "interface-name": [true, "never-prefix"],
+        "no-bitwise": false,
+        "no-consecutive-blank-lines": [true, 2],
+        "one-line": [true,
+            "check-open-brace",
+            "check-whitespace"
+        ],
+        "quotemark": [true,
+            "single"
+        ],
+        "variable-name": [true,
+            "allow-leading-underscore",
+            "allow-trailing-underscore",
+            "allow-pascal-case",
+            "allow-snake-case"
+        ]
+    }
+}
